@@ -11,12 +11,12 @@ class TabApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 5,
+        length: 4,
         child: Scaffold(
           appBar: AppBar(
               title: Text("Page Framework"),
               bottom: TabBar(tabs: [
-                Tab(icon: Icon(Icons.home)),
+                //Tab(icon: Icon(Icons.home)),
                 Tab(icon: Icon(Icons.person)),
                 Tab(icon: Icon(Icons.view_carousel)),
                 Tab(icon: Icon(Icons.settings)),
@@ -24,7 +24,7 @@ class TabApp extends StatelessWidget {
               ])),
           body: TabBarView(
             children: [
-              PageWizard(),
+              //PageWizard(),
               PageLogin(),
               PageCarousel(<String>[
                 'wizard1.jpg',
