@@ -4,6 +4,7 @@ A Flutter application to test a package of Flutter custom pages.
 In the future this package will be used to setup and customize standard App.
 
 ## Login page
+Simple login page with Email/Password inputs.
 
 ## Carousel page
 Create a carousel page simply passing an array of image names
